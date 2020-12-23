@@ -5,8 +5,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DtoProduto\" />
-    <Folder Include="DtoStatus\" />
+    <Folder Include="DtoFonecedor\Interfaces\" />
+    <Folder Include="DtoFonecedor\Servicos\" />
+    <Folder Include="DtoPedido\Servicos\" />
+    <Folder Include="DtoProduto\DTO\" />
+    <Folder Include="DtoProduto\Interfaces\" />
+    <Folder Include="DtoProduto\Servicos\" />
+    <Folder Include="DtoStatus\DTO\" />
+    <Folder Include="DtoStatus\Interfaces\" />
+    <Folder Include="DtoStatus\Servicos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Linq.Expressions" Version="4.3.0" />
   </ItemGroup>
 
   <ItemGroup>

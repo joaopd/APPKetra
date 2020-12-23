@@ -15,6 +15,8 @@ namespace AppKetra.Domain.Entities
 
         public int NumFornece { get; set; }
 
+        public int QntUnit { get; set; }
+
         public float ValTotal { get; set; }
 
         public DateTime DtEmissao { get; set; }
