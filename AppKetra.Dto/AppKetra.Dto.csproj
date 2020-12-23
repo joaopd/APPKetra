@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DtoProduto\" />
+    <Folder Include="DtoStatus\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppKetra.Domain\AppKetra.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
